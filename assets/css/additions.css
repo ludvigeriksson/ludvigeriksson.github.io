@@ -1,0 +1,13 @@
+#olderUpdates {
+    display: none;
+}
+
+.appIcon {
+    width: 100px;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+#cydia-link {
+    text-align: center;
+}

@@ -1,10 +1,135 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Telephasic by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Repo</title>
-    </head>
-    <body>
-        <p>Ludvig Eriksson's repo</p>
-    </body>
+	<head>
+		<title>Ludvig Eriksson's beta repository</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        
+        <link rel="stylesheet" href="/assets/css/additions.css" />
+        
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h1 id="logo"><a href="/">ludvigeriksson.com</a></h1>
+
+						<!-- Nav -->
+<!--
+							<nav id="nav">
+								<ul>
+									<li><a href="apps.html">Apps</a></li>
+									<li class="break"><a href="tweaks.html">Tweaks</a></li>
+								</ul>
+							</nav>
+-->
+
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper">
+					<div class="container" id="main">
+
+						<!-- Content -->
+							<article id="content">
+								<header>
+									<h2>Ludvig Eriksson's beta repository</h2>
+									<p>This is where betas of updates and upcoming tweaks might turn up. To download and install them, add this repo to your sources.</p>
+								</header>
+                                
+<!--								<p>Body text</p>-->
+							</article>
+                        
+                        <div class="row features">
+                            
+                            <section class="4u 12u(narrower) feature">
+								<div class="image-wrapper">
+									<img class="image featured" src="images/Add-repo-1.png" alt="Add repo 1" />
+								</div>
+								<header>
+									<h3>Step 1</h3>
+								</header>
+								<p>Under your Cydia sources tab, tap 'Edit' in the top right corner.</p>
+							</section>
+                            
+							<section class="4u 12u(narrower) feature">
+								<div class="image-wrapper">
+									<img class="image featured" src="images/Add-repo-2.png" alt="Add repo 2" />
+								</div>
+								<header>
+									<h3>Step 2</h3>
+								</header>
+								<p>Tap 'Add' in the top left corner.</p>
+							</section>
+
+                            <section class="4u 12u(narrower) feature">
+								<div class="image-wrapper">
+									<img class="image featured" src="images/Add-repo-3.png" alt="Add repo 3" />
+								</div>
+								<header>
+									<h3>Step 3</h3>
+								</header>
+								<p>Enter the repo address and tap 'Add Source'.</p>
+							</section>
+                            
+                        </div>
+                        
+                        <div class="row">
+                            <section class="4u hide(narrower)"></section>
+                            
+                            <section class="4u 12u(narrower)">
+                                <a href="cydia://sources" id="cydia-link" class="button image featured">Open sources tab in Cydia</a>
+                            </section>
+                            
+                            <section class="4u hide(narrower)"></section>
+                        </div>
+					</div>
+				</div>
+            
+
+			<!-- Footer -->
+				<div id="copyright" class="container">
+                    <ul class="menu">
+							<li>&copy; Ludvig Eriksson. All rights reserved.</li><li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+				    </ul>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/assets/js/skel.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/assets/js/main.js"></script>
+
+            <script>
+                $(document).ready(function(){  
+                    var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+                    if (iOS === false) {
+                        console.log("Not iOS.");
+                        $("#cydia-link").hide();
+                    } else {
+                        console.log("iOS.")
+                    }
+                });
+            </script>
+        
+	</body>
 </html>
