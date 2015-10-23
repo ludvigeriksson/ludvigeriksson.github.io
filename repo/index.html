@@ -122,17 +122,7 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="/assets/js/main.js"></script>
 
-            <script>
-                $(document).ready(function(){  
-                    var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-                    if (iOS === false) {
-                        console.log("Not iOS.");
-                        $("#cydia-link").hide();
-                    } else {
-                        console.log("iOS.")
-                    }
-                });
-            </script>
+            <script src="/assets/js/cydia.js"></script>
         
 	</body>
 </html>
