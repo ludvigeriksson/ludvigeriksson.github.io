@@ -1,0 +1,16 @@
+Package: com.ludvigeriksson.snoozehelper
+Version: 1.0.2~beta1
+Architecture: iphoneos-arm
+Maintainer: Ludvig Eriksson
+Installed-Size: 128
+Depends: mobilesubstrate
+Filename: debs//com.ludvigeriksson.snoozehelper_1.0.2~beta1_iphoneos-arm.deb
+Size: 9664
+MD5sum: 726fb7477b40334c7f6693d34daa9763
+SHA1: 031437773209d5e56f97bb7db0a9a7abea800df5
+SHA256: 0abd931066e6e4013532ced78eebd67749a67cc97bb12c59dcfe1ed4eca7ecab
+Section: Tweaks
+Description: Tap anywhere on the screen to snooze
+Author: Ludvig Eriksson
+Name: SnoozeHelper
+
