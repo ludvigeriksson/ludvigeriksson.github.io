@@ -2432,6 +2432,10 @@
 
 /* Features */
 
+.description {
+    font-style: italic;
+}
+
 .contactInfo {
     margin: 0;
 }
