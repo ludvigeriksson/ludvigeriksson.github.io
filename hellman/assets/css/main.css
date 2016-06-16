@@ -2468,9 +2468,9 @@
 .inner .icon {
     float: left;
     margin: 0;
-    padding: 0;
     margin-right: 0.3em;
     width: 1em;
+    clear: both;
 }
 
 /* Header */
