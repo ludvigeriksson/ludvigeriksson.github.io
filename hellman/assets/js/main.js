@@ -57,6 +57,8 @@
 
 						// Set active class on this link.
 							$this.addClass('active');
+                    
+                        return false;
 
 					})
 					.each(function() {
