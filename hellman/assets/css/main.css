@@ -2053,8 +2053,18 @@
 	}
 
 		ul li {
+            padding: 0;
 			padding-left: 0.5em;
+            margin: 0;
+            height: 3em;
+            display: block;
 		}
+
+            ul li span {
+                line-height: normal;
+                display: inline-block;
+                vertical-align: middle;
+            }
 
 		ul.alt {
 			list-style: none;
