@@ -2419,6 +2419,34 @@
 
 /* Features */
 
+.contactInfo {
+    margin: 0;
+}
+
+.padLeft {
+    margin-left: 1.3em;
+}
+
+#map {
+    border: 5px solid #b5362b;
+    border-radius: 50%;
+}
+
+.inner .icon {
+    float: left;
+    margin: 0;
+    margin-right: 0.3em;
+    width: 1em;
+    clear: both;
+}
+
+.profile {
+    display: inline-block;
+    padding-right: 2.5em;
+    vertical-align: middle;
+    width: 30%;
+}
+
 	.features article {
 		border-top: solid 3px #f4f4f4;
 		margin-bottom: 2.25em;
@@ -2452,26 +2480,6 @@
 				margin-bottom: 0;
 			}
 
-.contactInfo {
-    margin: 0;
-}
-
-.padLeft {
-    margin-left: 1.3em;
-}
-
-#map {
-    border: 5px solid #b5362b;
-    border-radius: 50%;
-}
-
-.inner .icon {
-    float: left;
-    margin: 0;
-    margin-right: 0.3em;
-    width: 1em;
-    clear: both;
-}
 
 /* Header */
 
