@@ -1562,6 +1562,10 @@
 		line-height: 1.75em;
 	}
 
+    h3, h4, h5, h6 {
+        
+    }
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -1589,7 +1593,12 @@
 
 	p {
 		margin: 0 0 2.25em 0;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	}
+
+    li span {
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #777;
