@@ -2056,9 +2056,12 @@
             padding: 0;
 			padding-left: 0.5em;
             margin: 0;
+		}
+
+        ul.feature-icons li {
             height: 3em;
             display: block;
-		}
+        }
 
             ul li span {
                 line-height: normal;
