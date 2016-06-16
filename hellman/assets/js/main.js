@@ -58,7 +58,8 @@
 						// Set active class on this link.
 							$this.addClass('active');
                     
-                        return false;
+                        // Prevent hash from being added to URL
+                            return false;
 
 					})
 					.each(function() {
