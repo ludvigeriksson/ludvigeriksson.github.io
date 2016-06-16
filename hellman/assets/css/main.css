@@ -2440,7 +2440,7 @@
     clear: both;
 }
 
-.profile {
+.features article .image.profile {
     display: inline-block;
     padding-right: 2.5em;
     vertical-align: middle;
@@ -2975,6 +2975,10 @@
 				margin: 0 0 2.25em 0;
 				padding-right: 0;
 				width: 100%;
+			}
+        
+            .features article .image.profile {
+				width: 50%;
 			}
 
 			.features article .inner {
