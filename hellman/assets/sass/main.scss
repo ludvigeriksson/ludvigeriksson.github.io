@@ -16,7 +16,8 @@
 	@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
-		medium: '(max-width: 1024px)',
+//		medium: '(max-width: 1024px)',
+        medium: '(max-width: 960px)',
 		small: '(max-width: 736px)',
 		xsmall: '(max-width: 480px)'
 	));
@@ -56,7 +57,7 @@
 
 	body, input, select, textarea {
 		color: _palette(fg);
-		font-family: _font(family);
+		font-family: _font(body);
 		font-size: 16pt;
 		font-weight: _font(weight);
 		line-height: 1.75em;
@@ -88,6 +89,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+        font-family: _font(headlines);
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
 		line-height: 1em;
@@ -546,10 +548,17 @@
 				@include icon;
 				display: inline-block;
 				margin: 0 0 (_size(element-margin) * 0.75) 0;
-				padding: 0.35em 0 0 3.5em;
+				padding: 0.3em 0 0 3.5em;
 				position: relative;
 				vertical-align: top;
 				width: 48%;
+                height: 3em;
+
+                > span {
+                    line-height: normal;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
 
 				&:before {
 					background: _palette(accent1, bg);
@@ -849,7 +858,7 @@
 
 			&:first-child {
 				border-top: 0;
-				padding-top: 0;
+//				padding-top: 0;
 			}
 
 			.image {
@@ -857,6 +866,15 @@
 				padding-right: 2.5em;
 				vertical-align: middle;
 				width: 48%;
+                
+                &.profile {
+                    width: 30%;
+                }
+                
+                &.map img {
+                    border: 5px solid _palette(accent1, bg);
+                    border-radius: 50%;
+                }
 
 				img {
 					display: block;
@@ -873,6 +891,22 @@
 					margin-bottom: 0;
 				}
 			}
+            
+            .description {
+                font-style: italic;
+                margin-bottom: 1em;
+            }
+            
+            .icon {
+                text-align: center;
+                min-width: 1em;
+                float: left;
+                margin-right: 0.3em;
+            }
+            
+            p {
+                margin: 0;
+            }
 		}
 	}
 
@@ -903,6 +937,23 @@
 		}
 
 		header {
+            height: 15em;
+            width: 100%;
+            display: table;
+            
+            div {
+                display: table-cell;
+                vertical-align: middle;
+                
+                h1 {
+                    font-size: 3em;
+                    max-width: 100%;
+                }
+                h2 {
+                    font-size: 0.8em;
+                }
+            }
+            
 			p {
 				color: _palette(header, fg-light);
 			}
@@ -917,7 +968,7 @@
 		}
 
 		> header {
-			padding: 3em;
+//			padding: 3em;
 
 			.avatar {
 				display: block;
@@ -956,6 +1007,8 @@
 		}
 
 		> nav {
+            font-family: _font(headlines);
+            
 			ul {
 				list-style: none;
 				margin: 0;
@@ -1021,8 +1074,8 @@
 
 	#one {
 		&:before {
-			background-image: url('../../images/banner.jpg');
-			background-position: top right;
+			background-image: url('../../images/herrg%C3%A5rd.jpg');
+			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			content: '';
@@ -1242,6 +1295,7 @@
 				min-width: 320px;
 
 				.title {
+                    font-family: _font(headlines);
 					color: #fff;
 					display: block;
 					font-weight: _font(weight-bold);

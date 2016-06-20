@@ -20,17 +20,21 @@
 
 // Font.
 	$font: (
-		family:				('Lato', sans-serif),
+        headlines:			('Lato', sans-serif),
+        body:               ('Palatino Linotype', 'Book Antiqua', Palatino, serif),
 		family-fixed:		('Source Code Pro', monospace),
 		weight:				400,
 		weight-bold:		700
 	);
 
+// Main color.
+    $color-main: #c0101e;
+
 // Palette.
 	$palette: (
 		bg:					#fff,
 		fg:					#888,
-		fg-bold:			#777,
+		fg-bold:			$color-main,
 		fg-light:			#aaa,
 		border:				#f4f4f4,
 		border-bg:			#fafafa,
@@ -40,10 +44,10 @@
 		border3-bg:			#eaeaea,
 
 		accent1: (
-			bg:				#4acaa8,
+			bg:				$color-main,
 			fg-bold:		#ffffff,
-			fg:				mix(#4acaa8, #ffffff, 25%),
-			fg-light:		mix(#4acaa8, #ffffff, 40%)
+			fg:				mix($color-main, #ffffff, 25%),
+			fg-light:		mix($color-main, #ffffff, 40%)
 		),
 
 		accent2: (
@@ -54,10 +58,10 @@
 		),
 
 		header: (
-			bg:				#4acaa8,
+			bg:				$color-main,
 			fg-bold:		#ffffff,
-			fg:				mix(#4acaa8, #ffffff, 25%),
-			fg-light:		mix(#4acaa8, #ffffff, 40%),
-			border:			mix(#4acaa8, #ffffff, 90%)
+			fg:				mix($color-main, #ffffff, 25%),
+			fg-light:		mix($color-main, #ffffff, 40%),
+			border:			mix($color-main, #ffffff, 90%)
 		)
 	);

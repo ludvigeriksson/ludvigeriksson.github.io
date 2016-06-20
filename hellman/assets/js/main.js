@@ -58,8 +58,8 @@
 						// Set active class on this link.
 							$this.addClass('active');
                     
-                        // Prevent hash from being added to URL
-                            return false;
+                        // Don't show hash in URL.
+                        return false;
 
 					})
 					.each(function() {
@@ -88,7 +88,7 @@
 				$(
 					'<div id="titleBar">' +
 						'<a href="#header" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + $('#logo2').html() + '</span>' +
+						'<span class="title">' + $('#navHiddenTitle').html() + '</span>' +
 					'</div>'
 				)
 					.appendTo($body);
