@@ -1867,7 +1867,8 @@ input[type="button"],
     text-align: center;
     min-width: 1em;
     float: left;
-    margin-right: 0.3em; }
+    margin-right: 0.3em;
+    height: 1em; }
   .features article p {
     margin: 0; }
 
