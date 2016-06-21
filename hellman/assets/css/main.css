@@ -1848,9 +1848,11 @@ input[type="button"],
     width: 48%; }
     .features article .image.profile {
       width: 30%; }
-    .features article .image.map img {
-      border: 5px solid #c0101e;
-      border-radius: 50%; }
+    .features article .image.map {
+      max-width: 300px; }
+      .features article .image.map img {
+        border: 5px solid #c0101e;
+        border-radius: 50%; }
     .features article .image img {
       display: block;
       width: 100%; }
@@ -2008,8 +2010,6 @@ input[type="button"],
   /* Header */
   #header {
     width: 21em; }
-    #header > header {
-      padding: 2em; }
     #header > footer {
       padding: 1.5em; }
 
@@ -2073,6 +2073,8 @@ input[type="button"],
     -ms-transform: translateX(23em);
     transform: translateX(23em);
     right: 0; }
+    #header > header {
+      height: 12.8em; }
     #header > footer {
       bottom: auto;
       left: auto;
@@ -2221,7 +2223,7 @@ input[type="button"],
     transform: translateX(17em);
     right: 0; }
     #header > header {
-      padding: 2em; }
+      height: 9.8em; }
       #header > header .avatar {
         margin: 0 auto 1.6875em auto;
         width: 6em; }
