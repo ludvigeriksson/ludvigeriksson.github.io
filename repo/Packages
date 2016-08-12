@@ -1,14 +1,14 @@
 Package: com.ludvigeriksson.timeuntilalarm
-Version: 1.1.8~beta2
+Version: 1.1.9~beta1
 Architecture: iphoneos-arm
 Maintainer: Ludvig Eriksson
-Installed-Size: 504
+Installed-Size: 664
 Depends: mobilesubstrate
-Filename: debs//com.ludvigeriksson.timeuntilalarm_1.1.8~beta2_iphoneos-arm.deb
-Size: 135980
-MD5sum: 937600bce1e6ab475b9d7cc1c75ed419
-SHA1: 85c80f73e8977163a2b1a7278401614e0f156d41
-SHA256: c7a7cbf4d438f24d8ea096ffb64bdae7687636ba7651f4a4899c57a643199f72
+Filename: .//debs/com.ludvigeriksson.timeuntilalarm_1.1.9~beta1_iphoneos-arm.deb
+Size: 141726
+MD5sum: d56f44e81623eec3a80e89b3b022e2fc
+SHA1: ae8d883de20afbfbb177de9c86106ccab1d2282c
+SHA256: 90653095bc09cb88be497fe9a13322d91e9764ffc1c47b6e375b26e51fb9e727
 Section: Tweaks
 Description: Shows the time remaining until the alarms go off
 Author: Ludvig Eriksson
