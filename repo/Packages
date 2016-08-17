@@ -1,3 +1,19 @@
+Package: com.ludvigeriksson.notescreationdate
+Version: 1.0.1~beta1
+Architecture: iphoneos-arm
+Maintainer: Ludvig Eriksson
+Installed-Size: 212
+Depends: mobilesubstrate
+Filename: .//debs/com.ludvigeriksson.notescreationdate_1.0.1~beta1_iphoneos-arm.deb
+Size: 19544
+MD5sum: 668380e74eb7906aedd4a9f557e910b1
+SHA1: f4f4bad5bdfd9374ae29ee57e2fbfe1552951d3f
+SHA256: d8561753d3ea1ab49580a630120ba7fad2e367da61aa3e37e3ddcb12f1ca5471
+Section: Tweaks
+Description: See the date notes were created
+Author: Ludvig Eriksson
+Name: NotesCreationDate
+
 Package: com.ludvigeriksson.timeuntilalarm
 Version: 1.1.10~beta2
 Architecture: iphoneos-arm
