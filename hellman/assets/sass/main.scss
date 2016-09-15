@@ -1081,7 +1081,7 @@
 	#one {
 		&:before {
 			background-image: url('../../images/herrg%C3%A5rd.jpg');
-			background-position: center center;
+			background-position: center 20%;
 			background-repeat: no-repeat;
 			background-size: cover;
 			content: '';
@@ -1284,6 +1284,7 @@
 
 			#one {
 				&:before {
+                    background-position: center 20%;
 					height: 10em;
 				}
 			}
@@ -1514,6 +1515,7 @@
 
 			#one {
 				&:before {
+                    background-position: center 28%;
 					height: 7em;
 				}
 			}
