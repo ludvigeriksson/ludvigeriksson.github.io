@@ -1,30 +1,14 @@
-Package: com.ludvigeriksson.notescreationdate
-Version: 1.0.1~beta1
-Architecture: iphoneos-arm
-Maintainer: Ludvig Eriksson
-Installed-Size: 212
-Depends: mobilesubstrate
-Filename: .//debs/com.ludvigeriksson.notescreationdate_1.0.1~beta1_iphoneos-arm.deb
-Size: 19544
-MD5sum: 668380e74eb7906aedd4a9f557e910b1
-SHA1: f4f4bad5bdfd9374ae29ee57e2fbfe1552951d3f
-SHA256: d8561753d3ea1ab49580a630120ba7fad2e367da61aa3e37e3ddcb12f1ca5471
-Section: Tweaks
-Description: See the date notes were created
-Author: Ludvig Eriksson
-Name: NotesCreationDate
-
 Package: com.ludvigeriksson.timeuntilalarm
-Version: 1.1.11~beta1
+Version: 1.1.11~beta2
 Architecture: iphoneos-arm
 Maintainer: Ludvig Eriksson
-Installed-Size: 848
+Installed-Size: 888
 Depends: mobilesubstrate
-Filename: .//debs/com.ludvigeriksson.timeuntilalarm_1.1.11~beta1_iphoneos-arm.deb
-Size: 215024
-MD5sum: 4a511ff761c0bd7ef7bf75fec2de5f97
-SHA1: c54f964ca42b088529688fb14cc128954b894901
-SHA256: 588fad4cc4dda1ccf769b3525cdf4bba24373c24e6c840ef3ded51b921ac1747
+Filename: .//debs/com.ludvigeriksson.timeuntilalarm_1.1.11~beta2_iphoneos-arm.deb
+Size: 217142
+MD5sum: ee79b7925bcac1ee742801e1a1150abe
+SHA1: e1e0d4045ea515a3a402adc9dc692e6fc8d980e4
+SHA256: 4b65d40e882f7246a19e1d222dca561a026180238d79e65f0ad364b859cbe2c0
 Section: Tweaks
 Description: Shows the time remaining until the alarms go off
 Author: Ludvig Eriksson
