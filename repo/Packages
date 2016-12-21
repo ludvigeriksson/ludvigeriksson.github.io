@@ -14,3 +14,19 @@ Description: Shows the time remaining until the alarms go off
 Author: Ludvig Eriksson
 Name: TimeUntilAlarm
 
+Package: com.ludvigeriksson.twitterthemetoggler
+Version: 1.0~beta1
+Architecture: iphoneos-arm
+Maintainer: Ludvig Eriksson
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: .//debs/com.ludvigeriksson.twitterthemetoggler_1.0~beta1_iphoneos-arm.deb
+Size: 11280
+MD5sum: 7cd9ad985077885a5866431a4bc0fd0b
+SHA1: 74632c5a480dcf1174c718d13d1a9c01b07ec812
+SHA256: c8b96956e8e8e16cbacd23649ac33cc03a99e17e4915ebd46ebce9b46a588fa3
+Section: Tweaks
+Description: Quickly toggle night mode in the official Twitter app
+Author: Ludvig Eriksson
+Name: TwitterThemeToggler
+
