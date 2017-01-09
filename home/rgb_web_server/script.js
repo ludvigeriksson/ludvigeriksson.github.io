@@ -7,7 +7,7 @@
 
     function handleEvent(mode) {
         var data = [];
-        switch (mode) {
+        switch (parseInt(mode)) {
             case 1:
                 // Movie mode
                 data[0] = 200;
