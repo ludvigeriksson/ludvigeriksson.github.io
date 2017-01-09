@@ -1,0 +1,13 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: #AAA;
+    text-align: center; 
+    line-height: 4em;
+}
+
+#custom input {
+    width: 100%;
+}
