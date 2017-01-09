@@ -39,6 +39,7 @@
         var req = new XMLHttpRequest();
         req.open('POST', '?' + params, true);
         req.send();
+        console.log('sent: ' + req);
     }
 
     $('.comb').click(function() {
