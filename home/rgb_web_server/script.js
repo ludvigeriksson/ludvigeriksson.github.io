@@ -13,21 +13,25 @@
                 data[0] = 200;
                 data[1] = 0;
                 data[2] = 100;
+                break;
             case 2:
                 // Max brightness
                 data[0] = 255;
                 data[1] = 255;
                 data[2] = 255;
+                break;
             case 3:
                 // Match ambient
                 data[0] = 0;
                 data[1] = 255;
                 data[2] = 0;
+                break;
             case 4:
                 // Custom
                 data[0] = 0;
                 data[1] = 0;
                 data[2] = 0;
+                break;
             default:
                 return;
         }
