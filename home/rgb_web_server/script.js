@@ -43,8 +43,8 @@
                 break;
             case 4:
                 // Custom
-                var s = $('#customInput').text();
-                var rgb = hexToRgb(s);
+                var hex = $('#customInput').val();
+                var rgb = hexToRgb(hex);
                 data[0] = rgb.r;
                 data[1] = rgb.g;
                 data[2] = rgb.b;
