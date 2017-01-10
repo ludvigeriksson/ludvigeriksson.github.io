@@ -42,6 +42,11 @@
                 data[1] = 238;
                 data[2] = 255;
                 break;
+            case "romantic":
+                data[0] = 147;
+                data[1] = 17;
+                data[2] = 25;
+                break;
             case "turn_off":
                 // Turn off
                 data[0] = 0;
@@ -82,8 +87,8 @@
         $('.comb').click(function() {
             handleEvent(this.dataset.mode);
         });
-        
+
         $(window).trigger('resize');
     });
-    
+
 }(jQuery));
