@@ -1,14 +1,4 @@
 (function($) {
-    $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data){
-        $('.honeycombs').html(data);
-    });
-
-    $('.honeycombs').honeycombs({
-        combWidth: 220,
-        margin: -20,
-        threshold: 3
-    });
-
     function hexToRgb(hex) {
         // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
         var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
@@ -67,8 +57,17 @@
         console.log('sent: ' + req);
     }
 
-    $('.comb').click(function() {
-        handleEvent(this.dataset.mode);
-    });
+    $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data){
+        $('.honeycombs').html(data);
 
+        $('.honeycombs').honeycombs({
+            combWidth: 220,
+            margin: -20,
+            threshold: 3
+        });
+
+        $('.comb').click(function() {
+            handleEvent(this.dataset.mode);
+        });
+    });
 }(jQuery));
