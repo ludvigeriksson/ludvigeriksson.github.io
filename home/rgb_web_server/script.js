@@ -84,7 +84,7 @@
         $('.honeycombs').html(data);
 
         $('.honeycombs').honeycombs({
-            combWidth: 220px,
+            combWidth: 220,
             margin: -20,
             threshold: 3
         });
