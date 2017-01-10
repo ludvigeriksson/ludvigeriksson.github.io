@@ -80,7 +80,7 @@
         console.log('sent: ' + req);
     }
 
-    $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data){
+    $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data) {
         $('.honeycombs').html(data);
 
         $('.honeycombs').honeycombs({
