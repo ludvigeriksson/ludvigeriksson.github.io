@@ -17,7 +17,7 @@
     function handleEvent(mode) {
         var data = [];
         switch (mode) {
-            case "max_brightness":
+            case "white":
                 data[0] = 255;
                 data[1] = 255;
                 data[2] = 255;
