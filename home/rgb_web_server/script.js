@@ -81,6 +81,8 @@
     }
 
     $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data) {
+        $('head').append('<meta name="viewport" content="width=device-width" />');
+        
         $('.honeycombs').html(data);
         
         $('#custom').append('<p>' + $(window).width() + '</p>');
