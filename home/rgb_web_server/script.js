@@ -84,8 +84,6 @@
         $('head').append('<meta name="viewport" content="width=device-width" />');
         
         $('.honeycombs').html(data);
-        
-        $('#custom').append('<p>' + $(window).width() + '</p>');
 
         $('.honeycombs').honeycombs({
             combWidth: 220,
@@ -97,7 +95,6 @@
             handleEvent(this.dataset.mode);
         });
 
-        $(window).trigger('resize');
     });
 
 }(jQuery));
