@@ -1,5 +1,9 @@
 (function($) {
-    $('.honeycombs').honeycombs({
+    $.get('honeycombs.html', function(data){
+        $('#honeycombs'.html(data);
+    });
+
+    $('#honeycombs').honeycombs({
         combWidth: 220,
         margin: -20,
         threshold: 3
@@ -36,9 +40,9 @@
                 data[2] = 255;
                 break;
             case 3:
-                // Match ambient
+                // Turn off
                 data[0] = 0;
-                data[1] = 255;
+                data[1] = 0;
                 data[2] = 0;
                 break;
             case 4:
