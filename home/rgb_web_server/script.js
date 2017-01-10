@@ -47,6 +47,11 @@
                 data[1] = 17;
                 data[2] = 25;
                 break;
+            case "lavender":
+                data[0] = 63;
+                data[1] = 2;
+                data[2] = 255;
+                break;
             case "turn_off":
                 // Turn off
                 data[0] = 0;
