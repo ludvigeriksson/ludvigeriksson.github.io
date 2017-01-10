@@ -16,26 +16,39 @@
 
     function handleEvent(mode) {
         var data = [];
-        switch (parseInt(mode)) {
-            case 1:
-                // Movie mode
-                data[0] = 200;
-                data[1] = 0;
-                data[2] = 100;
-                break;
-            case 2:
-                // Max brightness
+        switch (mode) {
+            case "max_brightness":
                 data[0] = 255;
                 data[1] = 255;
                 data[2] = 255;
                 break;
-            case 3:
+            case "movie_mode":
+                data[0] = 200;
+                data[1] = 0;
+                data[2] = 100;
+                break;
+            case "warm":
+                data[0] = 255;
+                data[1] = 104;
+                data[2] = 0;
+                break;
+            case "cold":
+                data[0] = 56;
+                data[1] = 122;
+                data[2] = 255;
+                break;
+            case "ice":
+                data[0] = 36;
+                data[1] = 238;
+                data[2] = 255;
+                break;
+            case "turn_off":
                 // Turn off
                 data[0] = 0;
                 data[1] = 0;
                 data[2] = 0;
                 break;
-            case 4:
+            case "custom":
                 // Custom
                 var hex = $('#customInput').val();
                 var rgb = hexToRgb(hex);
