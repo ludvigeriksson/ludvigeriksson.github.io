@@ -1,9 +1,9 @@
 (function($) {
     $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data){
-        $('#honeycombs').html(data);
+        $('.honeycombs').html(data);
     });
 
-    $('#honeycombs').honeycombs({
+    $('.honeycombs').honeycombs({
         combWidth: 220,
         margin: -20,
         threshold: 3
