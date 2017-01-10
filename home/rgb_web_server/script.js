@@ -82,6 +82,8 @@
 
     $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data) {
         $('.honeycombs').html(data);
+        
+        $('#custom').append('<p>' + $(window).width() + '</p>');
 
         $('.honeycombs').honeycombs({
             combWidth: 220,
