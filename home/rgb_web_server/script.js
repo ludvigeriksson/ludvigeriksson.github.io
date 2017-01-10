@@ -5,6 +5,21 @@
         threshold: 3
     });
 
+    function hexToRgb(hex) {
+        // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
+        var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+        hex = hex.replace(shorthandRegex, function(m, r, g, b) {
+            return r + r + g + g + b + b;
+        });
+
+        var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+        return result ? {
+            r: parseInt(result[1], 16),
+            g: parseInt(result[2], 16),
+            b: parseInt(result[3], 16)
+        } : null;
+    }
+
     function handleEvent(mode) {
         var data = [];
         switch (parseInt(mode)) {
@@ -28,9 +43,11 @@
                 break;
             case 4:
                 // Custom
-                data[0] = 0;
-                data[1] = 0;
-                data[2] = 0;
+                var s = $('#customInput').text();
+                var rgb = hexToRgb(s);
+                data[0] = rgb.r;
+                data[1] = rgb.g;
+                data[2] = rgb.b;
                 break;
             default:
                 return;
