@@ -1,6 +1,6 @@
 (function($) {
     $.get('honeycombs.html', function(data){
-        $('#honeycombs'.html(data);
+        $('#honeycombs').html(data);
     });
 
     $('#honeycombs').honeycombs({
