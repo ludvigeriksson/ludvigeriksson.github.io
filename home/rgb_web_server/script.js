@@ -23,9 +23,9 @@
                 data[2] = 255;
                 break;
             case "movie_mode":
-                data[0] = 200;
-                data[1] = 0;
-                data[2] = 100;
+                data[0] = 58;
+                data[1] = 34;
+                data[2] = 4;
                 break;
             case "warm":
                 data[0] = 255;
