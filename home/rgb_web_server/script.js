@@ -69,5 +69,8 @@
         $('.comb').click(function() {
             handleEvent(this.dataset.mode);
         });
+        
+        $(window).trigger('resize');
     });
+    
 }(jQuery));
