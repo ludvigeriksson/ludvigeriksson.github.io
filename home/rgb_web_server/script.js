@@ -16,6 +16,7 @@
 
     function handleEvent(mode) {
         var data = [];
+        var displayMode = 0;
         switch (mode) {
             case "white":
                 data[0] = 255;
@@ -70,6 +71,7 @@
                 return;
         }
         var params = [
+            'm=' + displayMode,
             'r=' + data[0],
             'g=' + data[1],
             'b=' + data[2]
