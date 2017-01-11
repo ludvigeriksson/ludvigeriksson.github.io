@@ -81,6 +81,7 @@
         } else {
             params = 'm=' + displayMode;
         }
+        console.log(params);
         var req = new XMLHttpRequest();
         req.open('POST', '?' + params, true);
         req.send();
