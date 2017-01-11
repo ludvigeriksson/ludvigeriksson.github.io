@@ -35,6 +35,7 @@
                 break;
             case "fire":
                 displayMode = 1;
+                break;
             case "cold":
                 data[0] = 56;
                 data[1] = 122;
@@ -54,6 +55,12 @@
                 data[0] = 63;
                 data[1] = 2;
                 data[2] = 255;
+                break;
+            case "rainbow":
+                displayMode = 2;
+                break;
+            case "disco":
+                displayMode = 3;
                 break;
             case "turn_off":
                 // Turn off
