@@ -33,6 +33,8 @@
                 data[1] = 104;
                 data[2] = 0;
                 break;
+            case "fire":
+                displayMode = 1;
             case "cold":
                 data[0] = 56;
                 data[1] = 122;
@@ -81,11 +83,9 @@
         } else {
             params = 'm=' + displayMode;
         }
-        console.log(params);
         var req = new XMLHttpRequest();
         req.open('POST', '?' + params, true);
         req.send();
-        console.log('sent: ' + req);
     }
 
     $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data) {
