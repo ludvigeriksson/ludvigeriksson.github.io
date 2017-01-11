@@ -70,12 +70,17 @@
             default:
                 return;
         }
-        var params = [
-            'm=' + displayMode,
-            'r=' + data[0],
-            'g=' + data[1],
-            'b=' + data[2]
-        ].join('&');
+        var params;
+        if (data.length > 0) {
+            params = [
+                'm=' + displayMode,
+                'r=' + data[0],
+                'g=' + data[1],
+                'b=' + data[2]
+            ].join('&');
+        } else {
+            params = 'm=' + displayMode;
+        }
         var req = new XMLHttpRequest();
         req.open('POST', '?' + params, true);
         req.send();
@@ -84,7 +89,7 @@
 
     $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data) {
         $('head').append('<meta name="viewport" content="width=device-width" />');
-        
+
         $('.honeycombs').html(data);
 
         $('.honeycombs').honeycombs({
