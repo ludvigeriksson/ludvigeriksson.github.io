@@ -97,7 +97,7 @@
 
     $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data) {
         $('head').append('<meta name="viewport" content="width=device-width" />');
-        $('head').append('<link rel="apple-touch-icon" href="/icon_iphone.png" />');
+        $('head').append('<link rel="apple-touch-icon" href="http://ludvigeriksson.com/home/rgb_web_server/icon_iphone.png" />');
 
         $('.honeycombs').html(data);
 
