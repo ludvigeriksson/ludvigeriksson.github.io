@@ -74,7 +74,7 @@
 
     $.get('http://10.0.1.4/api/v1/status', function(data) {
         if (data == '1') {
-            $('input:checkbox').prop('cheched, true');
+            $('input:checkbox').prop('checked, true');
         }
     });
 
