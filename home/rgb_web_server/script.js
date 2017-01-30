@@ -70,6 +70,16 @@
         $('.comb').click(function() {
             clickedComb(this.dataset.mode, this.dataset.red, this.dataset.green, this.dataset.blue);
         });
+        
+        $('input:checkbox').change(function() {
+            var state = 'off';
+            if($(this).is(":checked")) {
+                state = 'on';
+            }
+            var req = new XMLHttpRequest();
+            req.open('POST', '/api/v1/' + state, true);
+            req.send();
+        });
     });
 
 }(jQuery));
