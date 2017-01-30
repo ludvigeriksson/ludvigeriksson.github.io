@@ -65,7 +65,7 @@
 
         $('.comb').each(function() {
             if (this.dataset.red) {
-                $(this).css('background-color', 'rgb(' + this.dataset.red + ',' + this.dataset.green + ',' + this.dataset.blue + ')');   
+                $(this).css('color', 'rgb(' + this.dataset.red + ',' + this.dataset.green + ',' + this.dataset.blue + ')');   
             }
         });
 
