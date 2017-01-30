@@ -36,7 +36,7 @@
                 data[2] = rgb.b;
                 break;
             default:
-                return;
+                break;
         }
         if (displayMode === 0) {
             data = [red, green, blue];
