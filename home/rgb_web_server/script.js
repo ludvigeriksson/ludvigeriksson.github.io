@@ -72,12 +72,6 @@
         $('.comb').click(function() {
             clieckedComb(this.dataset.mode, this.dataset.red, this.dataset.green, this.dataset.blue);
         });
-
-        $('.comb').each(function() {
-            if (this.dataset.red) {
-                $(this).css('color', 'rgb(' + this.dataset.red + ',' + this.dataset.green + ',' + this.dataset.blue + ')');   
-            }
-        });
     });
 
 }(jQuery));
