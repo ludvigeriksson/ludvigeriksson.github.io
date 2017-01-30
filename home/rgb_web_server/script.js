@@ -14,59 +14,18 @@
         } : null;
     }
 
-    function handleEvent(mode) {
+    function clickedComb(mode, red, green, blue) {
         var data = [];
         var displayMode = 0;
         switch (mode) {
-            case "white":
-                data[0] = 255;
-                data[1] = 255;
-                data[2] = 255;
-                break;
-            case "movie_mode":
-                data[0] = 58;
-                data[1] = 34;
-                data[2] = 4;
-                break;
-            case "warm":
-                data[0] = 255;
-                data[1] = 104;
-                data[2] = 0;
-                break;
             case "fire":
                 displayMode = 1;
-                break;
-            case "cold":
-                data[0] = 56;
-                data[1] = 122;
-                data[2] = 255;
-                break;
-            case "ice":
-                data[0] = 36;
-                data[1] = 238;
-                data[2] = 255;
-                break;
-            case "romantic":
-                data[0] = 147;
-                data[1] = 17;
-                data[2] = 25;
-                break;
-            case "lavender":
-                data[0] = 63;
-                data[1] = 2;
-                data[2] = 255;
                 break;
             case "rainbow":
                 displayMode = 2;
                 break;
             case "disco":
                 displayMode = 3;
-                break;
-            case "turn_off":
-                // Turn off
-                data[0] = 0;
-                data[1] = 0;
-                data[2] = 0;
                 break;
             case "custom":
                 // Custom
@@ -78,6 +37,9 @@
                 break;
             default:
                 return;
+        }
+        if (displayMode === 0) {
+            data = [red, green, blue];
         }
         var params;
         if (data.length > 0) {
@@ -101,6 +63,12 @@
 
         $('.honeycombs').html(data);
 
+        $('.comb').each(function() {
+            if ($(this).dataset.red) {
+                $(this).css('background-color', 'rgb(' + this.dataset.red + ',' + this.dataset.green + ',' + this.dataset.blue + ')');   
+            }
+        });
+
         $('.honeycombs').honeycombs({
             combWidth: 220,
             margin: -20,
@@ -108,7 +76,7 @@
         });
 
         $('.comb').click(function() {
-            handleEvent(this.dataset.mode);
+            clieckedComb(this.dataset.mode, this.dataset.red, this.dataset.green, this.dataset.blue);
         });
 
     });
