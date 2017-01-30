@@ -15,7 +15,7 @@
     }
 
     function clickedComb(mode, red, green, blue) {
-        var data = [];
+        var data = [red, green, blue];
         var displayMode = 0;
         switch (mode) {
             case "fire":
@@ -38,11 +38,8 @@
             default:
                 break;
         }
-        if (displayMode === 0) {
-            data = [red, green, blue];
-        }
         var params;
-        if (data.length > 0) {
+        if (displayMode === 0) {
             params = [
                 'm=' + displayMode,
                 'r=' + data[0],
