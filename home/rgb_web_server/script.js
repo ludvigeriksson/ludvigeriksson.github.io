@@ -64,7 +64,7 @@
         $('.honeycombs').html(data);
 
         $('.comb').each(function() {
-            if ($(this).dataset.red) {
+            if (this.dataset.red) {
                 $(this).css('background-color', 'rgb(' + this.dataset.red + ',' + this.dataset.green + ',' + this.dataset.blue + ')');   
             }
         });
