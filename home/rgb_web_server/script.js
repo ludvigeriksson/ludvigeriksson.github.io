@@ -70,7 +70,7 @@
         });
 
         $('.comb').click(function() {
-            clieckedComb(this.dataset.mode, this.dataset.red, this.dataset.green, this.dataset.blue);
+            clickedComb(this.dataset.mode, this.dataset.red, this.dataset.green, this.dataset.blue);
         });
     });
 
