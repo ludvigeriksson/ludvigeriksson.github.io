@@ -1,0 +1,11 @@
+{
+    "currentSponsoredMessages": [
+        {
+            "name": "hi",
+            "url-standard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/hi-standard.png",
+            "url-wide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/hi-wide.png",
+            "link": "http://hellointernet.fm",
+            "validUntil": "2017-07-31"
+        }
+    ]
+}
