@@ -7,6 +7,14 @@
             "closeButtonColor": "white",
             "link": "http://hellointernet.fm",
             "validUntil": "2017-08-31"
+        },
+        {
+            "name": "esp",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-standard.png",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-wide.png",
+            "closeButtonColor": "black",
+            "link": "http://ekenssportprodukter.com",
+            "validUntil": "2017-08-31"
         }
     ]
 }
