@@ -1,7 +1,7 @@
 {
     "currentSponsoredMessages": [
         {
-            "name": "hi",
+            "id": "hi",
             "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/hi-standard.png",
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/hi-wide.png",
             "closeButtonColor": "white",
@@ -9,7 +9,7 @@
             "validUntil": "2017-08-31"
         },
         {
-            "name": "esp",
+            "id": "esp",
             "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-standard.png",
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-wide.png",
             "closeButtonColor": "black",
