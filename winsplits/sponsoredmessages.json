@@ -15,6 +15,14 @@
             "closeButtonColor": "black",
             "link": "http://ekenssportprodukter.com",
             "validUntil": "2017-08-31"
+        },
+        {
+            "id": "synasHär",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/synas-standard.png",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/synas-wide.png",
+            "closeButtonColor": "white",
+            "link": "http://ludvigeriksson.com",
+            "validUntil": "2017-08-31"
         }
     ]
 }
