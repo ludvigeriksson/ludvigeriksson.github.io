@@ -1,0 +1,28 @@
+{
+    "currentSponsoredMessages": [
+        {
+            "id": "esp-oak-socks",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-oak-socks-standard.jpg",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-oak-socks-wide.jpg",
+            "closeButtonColor": "white",
+            "link": "https://www.ekenssportprodukter.com/oak-socks",
+            "validUntil": "2017-12-31"
+        },
+        {
+            "id": "esp-oak-harness",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-oak-harness-standard.jpg",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-oak-harness-wide.jpg",
+            "closeButtonColor": "black",
+            "link": "https://www.ekenssportprodukter.com/oak-harness",
+            "validUntil": "2017-12-31"
+        },
+        {
+            "id": "esp-ekens-lupp",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-ekens-lupp-standard.png",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-ekens-lupp-wide.png",
+            "closeButtonColor": "black",
+            "link": "https://www.ekenssportprodukter.com/luppar",
+            "validUntil": "2017-12-31"
+        }
+    ]
+}
