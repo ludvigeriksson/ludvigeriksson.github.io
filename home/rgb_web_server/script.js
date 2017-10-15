@@ -52,6 +52,10 @@
         var req = new XMLHttpRequest();
         req.open('POST', '?' + params, true);
         req.send();
+        var reqOn = new XMLHttpRequest();
+        reqOn.open('POST', '/api/v1/on', true);
+        reqOn.send();
+        $('input:checkbox').prop('checked', true);
     }
 
     $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data) {
@@ -76,7 +80,7 @@
 
     $('input:checkbox').change(function() {
         var state = 'off';
-        if($(this).is(":checked")) {
+        if($(this).prop('checked')) {
             state = 'on';
         }
         var req = new XMLHttpRequest();
