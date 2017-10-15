@@ -49,16 +49,12 @@
         } else {
             params = 'm=' + displayMode;
         }
-        console.log(params);
         var req = new XMLHttpRequest();
         req.open('POST', '?' + params, true);
         req.send();
     }
 
     $.get('http://ludvigeriksson.com/home/rgb_web_server/honeycombs.html', function(data) {
-        $('head').append('<meta name="viewport" content="width=device-width" />');
-        $('head').append('<link rel="apple-touch-icon" href="http://ludvigeriksson.com/home/rgb_web_server/icon_iphone.png" />');
-
         $('.honeycombs').html(data);
 
         $('.honeycombs').honeycombs({
@@ -72,7 +68,7 @@
         });
     });
 
-    $.get('http://10.0.1.4/api/v1/status', function(data) {
+    $.get('/api/v1/status', function(data) {
         if (data == '1') {
             $('input:checkbox').prop('checked', true);
         }
