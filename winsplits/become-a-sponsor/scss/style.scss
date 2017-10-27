@@ -1,0 +1,240 @@
+@import "bootstrap/_variables.scss";
+
+/* Variables */
+
+$color-right: orange;
+$color-left: #ea602a;
+
+/* Fonts */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    text-transform: uppercase;
+
+    @media (max-width: $screen-xs-min) {
+        font-size: 2em;
+    }
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+p {
+    font-weight: lighter;
+}
+
+/* General */
+
+.container {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+i {
+    color: orange;
+    padding-right: 10px;
+}
+
+/* Header */
+
+.header {
+    color: white;
+
+    background: linear-gradient(-60deg, $color-left, $color-right);
+    background: -o-linear-gradient(-60deg, $color-left, $color-right);
+    background: -moz-linear-gradient(-60deg, $color-left, $color-right);
+    background: -webkit-linear-gradient(-60deg, $color-left, $color-right);
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+    -o-clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+
+    @media (max-width: $screen-sm-min) {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+        -o-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+        -moz-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);   
+    }
+
+    #logo {
+        img {
+            width: 70px;
+            margin: 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        h1 {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        p {
+        }
+    }
+}
+
+/* Vertical alignment in grid */
+
+@media (min-width: $screen-sm-min) {
+    .row {
+        position: relative;
+    }
+    .center-sm {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .bottom-sm {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media (min-width: $screen-md-min) {
+    .row {
+        position: relative;
+    }
+    .center-md {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .bottom-md {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+/* Images */
+
+.imageContainer {
+    text-align: center;
+    margin-top: 30px;
+
+    img {
+        width: 100%;
+    }
+}
+
+/* Pricing section */
+
+.colored {
+    color: white;
+    
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
+    background: linear-gradient(-60deg, $color-left, $color-right);
+    background: -o-linear-gradient(-60deg, $color-left, $color-right);
+    background: -moz-linear-gradient(-60deg, $color-left, $color-right);
+    background: -webkit-linear-gradient(-60deg, $color-left, $color-right);
+
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+    -o-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+    -moz-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+
+    @media (max-width: $screen-sm-min) {
+        clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);
+        -o-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);
+        -moz-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);
+        -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);  
+    }
+
+    p {
+        padding-bottom: 1em;
+    }
+}
+
+.table {
+    color: white;
+    tbody > tr > td {
+        border-top: 1px solid white;
+    }
+    tbody > tr > th {
+        border-top: none;
+    }
+}
+
+.currency {
+    text-align: right;
+}
+
+.footnote {
+    font-size: 0.8em;
+}
+
+/* Downloads section */
+
+#downloads {
+    img {
+        display: inline-block;
+        width: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+}
+
+/* Contact section */
+
+#contact {
+    padding-bottom: 40px;
+}
+
+/* App Store section */
+
+.appStore {
+    text-align: center;
+    img {
+        width: 80%;
+        max-width: 200px;
+        margin-bottom: 20px;
+        filter: drop-shadow(0 0 0 1px gray);
+        -o-filter: drop-shadow(0 0 1px gray);
+        -moz-filter: drop-shadow(0 0 1px gray);
+        -webkit-filter: drop-shadow(0 0 1px gray);
+    }
+}
+
+.fadeHover {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fadeHover:hover {
+    opacity: 0.5;
+}
