@@ -206,4 +206,11 @@ i {
 .fadeHover:hover {
   opacity: 0.5; }
 
+/* Footer */
+/* line 244, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+#footer {
+  color: #aaa;
+  text-align: center;
+  margin: auto; }
+
 /*# sourceMappingURL=style.css.map */
