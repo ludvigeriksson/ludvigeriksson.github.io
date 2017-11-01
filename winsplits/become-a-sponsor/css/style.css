@@ -2,7 +2,7 @@
 /* Fonts */
 /* line 10, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 body {
-  font-family: Helvetica, Arial, sans-serif; }
+  font-family: Ubuntu, Helvetica, Arial, sans-serif; }
 
 /* line 14, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 h1, h2 {
@@ -20,35 +20,31 @@ h1 {
 h2 {
   font-size: 2.5em; }
 
-/* line 30, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
-p {
-  font-weight: lighter; }
-
 /* General */
-/* line 36, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 32, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 .container {
   margin-bottom: 40px;
   padding: 20px; }
 
-/* line 41, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 37, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 a {
   color: #555;
   text-decoration: none;
   cursor: pointer; }
 
-/* line 47, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 43, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 a:hover {
   color: orange;
   text-decoration: none;
   transition: 0.5s; }
 
-/* line 53, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 49, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 i {
   color: orange;
   padding-right: 10px; }
 
 /* Header */
-/* line 60, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 56, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 .header {
   color: white;
   background: linear-gradient(-60deg, #ea602a, orange);
@@ -62,67 +58,67 @@ i {
   -moz-clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%); }
   @media (max-width: 768px) {
-    /* line 60, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+    /* line 56, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
     .header {
       clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
       -o-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
       -moz-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
       -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); } }
-  /* line 83, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 79, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .header #logo img {
     width: 70px;
     margin: 10px;
     display: inline-block;
     vertical-align: middle; }
-  /* line 90, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 86, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .header #logo h1 {
     display: inline-block;
     vertical-align: middle; }
 
 /* Vertical alignment in grid */
 @media (min-width: 768px) {
-  /* line 103, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 99, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .row {
     position: relative; }
-  /* line 106, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 102, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .center-sm {
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%); }
-  /* line 112, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 108, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .bottom-sm {
     position: absolute;
     bottom: 0;
     right: 0; } }
 
 @media (min-width: 992px) {
-  /* line 120, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 116, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .row {
     position: relative; }
-  /* line 123, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 119, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .center-md {
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%); }
-  /* line 129, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 125, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .bottom-md {
     position: absolute;
     bottom: 0;
     right: 0; } }
 
 /* Images */
-/* line 138, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 134, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 .imageContainer {
   text-align: center;
   margin-top: 30px; }
-  /* line 142, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 138, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .imageContainer img {
     width: 100%; }
 
 /* Pricing section */
-/* line 149, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 145, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 .colored {
   color: white;
   padding-top: 50px;
@@ -136,36 +132,36 @@ i {
   -moz-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
   -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%); }
   @media (max-width: 768px) {
-    /* line 149, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+    /* line 145, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
     .colored {
       clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);
       -o-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);
       -moz-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);
       -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%); } }
-  /* line 172, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 168, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .colored p {
     padding-bottom: 1em; }
 
-/* line 177, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 173, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 .table {
   color: white; }
-  /* line 179, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 175, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .table tbody > tr > td {
     border-top: 1px solid white; }
-  /* line 182, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 178, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .table tbody > tr > th {
     border-top: none; }
 
-/* line 187, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 183, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 .currency {
   text-align: right; }
 
-/* line 191, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 187, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 .footnote {
   font-size: 0.8em; }
 
 /* Downloads section */
-/* line 198, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 194, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 #downloads img {
   display: inline-block;
   width: 80px;
@@ -176,15 +172,15 @@ i {
   margin-bottom: 30px; }
 
 /* Contact section */
-/* line 211, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 207, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 #contact {
   padding-bottom: 40px; }
 
 /* App Store section */
-/* line 217, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 213, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 .appStore {
   text-align: center; }
-  /* line 219, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+  /* line 215, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
   .appStore img {
     width: 80%;
     max-width: 200px;
@@ -194,7 +190,7 @@ i {
     -moz-filter: drop-shadow(0 0 1px gray);
     -webkit-filter: drop-shadow(0 0 1px gray); }
 
-/* line 230, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 226, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 .fadeHover {
   opacity: 1;
   transition: opacity .25s ease-in-out;
@@ -202,12 +198,12 @@ i {
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out; }
 
-/* line 238, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 234, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 .fadeHover:hover {
   opacity: 0.5; }
 
 /* Footer */
-/* line 244, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
+/* line 240, /Users/ludvig/Library/Mobile Documents/com~apple~CloudDocs/Developer/Web/Hemsida/ludvigeriksson.github.io/winsplits/become-a-sponsor/scss/style.scss */
 #footer {
   color: #aaa;
   text-align: center;
