@@ -1,4 +1,4 @@
-$('head').append('<title>Test123</title>');
+$('head').append('<title>Lights</title>');
 
 $.get('http://ludvigeriksson.com/home/rgb_web_server/linda-kristian.html', function(data) {
     $('body').html(data);
