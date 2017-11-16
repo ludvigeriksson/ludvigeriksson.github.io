@@ -34,11 +34,15 @@
 
     var mpk = (sumTime / 60) / sumDistance;
     var mpkSeconds = Math.round((mpk - Math.floor(mpk)) * 60);
+    var mpkSecondsString = String(mpkSeconds);
+    if (mpkSeconds < 10) {
+        mpkSecondsString = '0' + mpkSecondsString;
+    }
 
     alert('Summary of ' + activeRows.length + ' laps' + '\n\n' + 
           'Time: ' + totalTimeString + '\n' + 
           'Distance: ' + totalDistanceString + 'km' + '\n' +
-          'Tempo: ' + Math.floor(mpk) + ':' + mpkSeconds + 'min/km'
+          'Tempo: ' + Math.floor(mpk) + ':' + mpkSecondsString + 'min/km'
          );
 
 })();
