@@ -18,14 +18,14 @@
     var totalTimeDate = new Date(null);
     totalTimeDate.setMilliseconds(sumTime*1000);
     var totalTimeString = totalTimeDate.toISOString().substr(11, 11);
-    var totalDistanceString = String(sumDistance);
+    var totalDistanceString = sumDistance.toFixed(2);
 
     var mpk = (sumTime / 60) / sumDistance;
     var mpkSeconds = Math.round((mpk - Math.floor(mpk)) * 60);
 
     alert('Summary of ' + activeRows.length + ' laps' + '\n\n' + 
           'Time: ' + totalTimeString + '\n' + 
-          'Distance: ' + totalDistanceString.toFixed(2) + 'km' + '\n' +
+          'Distance: ' + totalDistanceString + 'km' + '\n' +
           'Tempo: ' + Math.floor(mpk) + ':' + mpkSeconds + 'min/km'
          );
 
