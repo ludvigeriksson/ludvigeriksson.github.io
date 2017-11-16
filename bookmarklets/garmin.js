@@ -25,7 +25,7 @@
 
     alert('Summary of ' + activeRows.length + ' laps' + '\n\n' + 
           'Time: ' + totalTimeString + '\n' + 
-          'Distance: ' + totalDistanceString + 'km' + '\n' +
+          'Distance: ' + totalDistanceString.toFixed(2) + 'km' + '\n' +
           'Tempo: ' + Math.floor(mpk) + ':' + mpkSeconds + 'min/km'
          );
 
