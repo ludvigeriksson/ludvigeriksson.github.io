@@ -1,16 +1,27 @@
 (function() {
 
+    // Get all the selected (active) rows
     var activeRows = document.querySelectorAll('tr.active');
     var sumTime = 0.0;
     var sumDistance = 0.0;
 
     for (var i = 0; i < activeRows.length; i++) {
+        // The time is in column 1
         var textTime = activeRows[i].children[1].innerHTML.trim();
-        var minutes = parseInt(textTime.split(':')[0]);
-        var seconds = parseFloat(textTime.split(':')[1]);
+        var timeParts = textTime.split(':');
+        var hours = 0;
+        var minutes = 0;
+        var seconds = 0.0;
+        if (timeParts.length === 3) {
+            hours = parseInt(timeParts[0]);
+            timeParts.splice(0, 1);
+        }
+        minutes = parseInt(timeParts[0]);
+        seconds = parseFloat(timeParts[1]);
         sumTime += minutes*60;
         sumTime += seconds;
 
+        // The distance is in column 4
         var textDistance = activeRows[i].children[4].innerHTML.trim();
         sumDistance += parseFloat(textDistance);
     }
