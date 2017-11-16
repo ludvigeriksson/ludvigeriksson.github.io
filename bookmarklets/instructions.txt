@@ -1,11 +1,12 @@
 Use the following snippet to link a bookmarklet
 
 (function () {
-  var script = document.createElement('script');
-  script.src = 'insert link here';
-  document.body.appendChild(script);
+    var script = document.createElement('script');
+    var url = 'insert link here';
+    script.src = url + "?" + new Date().getTime();
+    document.body.appendChild(script);
 })();
 
 Or, as an anchor tag that can be dragged to the bookmark toolbar or rightclicked to save
 
-<a href="javascript:(function(){var script=document.createElement('script');script.src='insert link here';document.body.appendChild(script);})();">bookmarklet</a>
+<a href="javascript:(function(){var script=document.createElement('script');var url='insert link here';script.src=url+"?"+new Date().getTime();document.body.appendChild(script);})();">bookmarklet</a>

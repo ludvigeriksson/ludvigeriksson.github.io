@@ -18,6 +18,7 @@
         }
         minutes = parseInt(timeParts[0]);
         seconds = parseFloat(timeParts[1]);
+        sumTime += hours*60*60;
         sumTime += minutes*60;
         sumTime += seconds;
 
