@@ -4,6 +4,7 @@
     var activeRows = document.querySelectorAll('tr.active');
     var sumTime = 0.0;
     var sumDistance = 0.0;
+    var sumPulse = 0.0;
 
     for (var i = 0; i < activeRows.length; i++) {
         // The time is in column 1
@@ -25,6 +26,10 @@
         // The distance is in column 4
         var textDistance = activeRows[i].children[4].innerHTML.trim();
         sumDistance += parseFloat(textDistance);
+
+        // The pulse is in column 10
+        var textPulse = activeRows[i].children[10].innerHTML.trim();
+        sumPulse += parseInt(textPulse);
     }
 
     var totalTimeDate = new Date(null);
@@ -39,10 +44,14 @@
         mpkSecondsString = '0' + mpkSecondsString;
     }
 
-    alert('Summary of ' + activeRows.length + ' laps' + '\n\n' + 
-          'Time: ' + totalTimeString + '\n' + 
+    var avgPulse = sumPulse / activeRows.length;
+    var avgPulseString = avgPulse.toFixed(0);
+
+    alert('Summary of ' + activeRows.length + ' laps' + '\n\n' +
+          'Time: ' + totalTimeString + '\n' +
           'Distance: ' + totalDistanceString + 'km' + '\n' +
-          'Tempo: ' + Math.floor(mpk) + ':' + mpkSecondsString + 'min/km'
+          'Tempo: ' + Math.floor(mpk) + ':' + mpkSecondsString + 'min/km' + '\n' +
+          'Average pulse: ' + avgPulseString + 'bpm (not weighted!)'
          );
 
 })();
