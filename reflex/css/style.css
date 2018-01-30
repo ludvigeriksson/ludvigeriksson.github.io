@@ -1,0 +1,45 @@
+html, body {
+    background: #222;
+    text-align: center;
+    font-family: Audiowide, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0; padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    flex: 1;
+}
+
+#header h1 {
+    color: #fff;
+    text-shadow: 0 0 20px #fff;
+}
+
+#footer p {
+    margin: 5px;
+    color: #aaa;
+    font-size: 0.8em;
+}
+
+.infoWindow {
+    text-align: left;
+}
+
+.infoWindow h2, .infoWindow p {
+    padding: 0;
+    margin: 0;
+}
+
+.infoWindow .variant {
+    margin-bottom: 10px;
+}
