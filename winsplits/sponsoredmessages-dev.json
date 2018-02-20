@@ -6,7 +6,7 @@
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-oak-socks-wide.jpg",
             "closeButtonColor": "white",
             "link": "https://www.ekenssportprodukter.com/oak-socks",
-            "validUntil": "2017-12-31"
+            "validUntil": "2018-04-30"
         },
         {
             "id": "esp-oak-harness",
@@ -14,7 +14,7 @@
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-oak-harness-wide.jpg",
             "closeButtonColor": "black",
             "link": "https://www.ekenssportprodukter.com/oak-harness",
-            "validUntil": "2017-12-31"
+            "validUntil": "2018-04-30"
         },
         {
             "id": "esp-ekens-lupp",
@@ -22,7 +22,15 @@
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-ekens-lupp-wide.png",
             "closeButtonColor": "black",
             "link": "https://www.ekenssportprodukter.com/luppar",
-            "validUntil": "2017-12-31"
+            "validUntil": "2018-04-30"
+        },
+        {
+            "id": "sign-oak-socks-feb",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-oak-socks-feb-standard.png",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-oak-socks-feb-wide.png",
+            "closeButtonColor": "black",
+            "link": "https://www.signsport.se/orientering/533-oak-socks-vatsockor.html#/157-color-funas_monster/52-size-xs",
+            "validUntil": "2018-02-28"
         }
     ]
 }
