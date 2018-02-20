@@ -23,6 +23,14 @@
             "closeButtonColor": "black",
             "link": "https://www.ekenssportprodukter.com/luppar",
             "validUntil": "2018-04-30"
+        },
+        {
+            "id": "sign-oak-socks-feb",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-oak-socks-feb-standard.png",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-oak-socks-feb-wide.png",
+            "closeButtonColor": "white",
+            "link": "https://www.signsport.se/orientering/533-oak-socks-vatsockor.html#/157-color-funas_monster/52-size-xs",
+            "validUntil": "2018-02-28"
         }
     ]
 }
