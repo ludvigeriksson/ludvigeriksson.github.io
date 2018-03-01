@@ -44,7 +44,7 @@
             "id": "sign-rabatt",
             "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-rabatt-standard.png",
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-rabatt-wide.png",
-            "closeButtonColor": "white",
+            "closeButtonColor": "black",
             "link": "https://www.signsport.se/",
             "validUntil": "2018-04-30"
         },
@@ -52,7 +52,7 @@
             "id": "sign-team-march",
             "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-team-march-standard.png",
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-team-march-wide.png",
-            "closeButtonColor": "white",
+            "closeButtonColor": "black",
             "link": "http://www.sign-sport.se/",
             "validUntil": "2018-03-31"
         },
