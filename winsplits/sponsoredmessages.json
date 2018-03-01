@@ -31,6 +31,54 @@
             "closeButtonColor": "white",
             "link": "https://www.signsport.se/orientering/533-oak-socks-vatsockor.html#/157-color-funas_monster/52-size-xs",
             "validUntil": "2018-02-28"
+        },
+        {
+            "id": "sign-osatraffen",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-osatraffen-standard.jpg",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-osatraffen-wide.jpg",
+            "closeButtonColor": "white",
+            "link": "https://www.facebook.com/Osatraffen",
+            "validUntil": "2018-05-31"
+        },
+        {
+            "id": "sign-rabatt",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-rabatt-standard.png",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-rabatt-wide.png",
+            "closeButtonColor": "white",
+            "link": "https://www.signsport.se/",
+            "validUntil": "2018-04-30"
+        },
+        {
+            "id": "sign-team-march",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-team-march-standard.png",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-team-march-wide.png",
+            "closeButtonColor": "white",
+            "link": "http://www.sign-sport.se/",
+            "validUntil": "2018-03-31"
+        },
+        {
+            "id": "sign-mtiger",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-mtiger-standard.jpg",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-mtiger-wide.jpg",
+            "closeButtonColor": "white",
+            "link": "https://www.lampspecialisten.se/63-m-tiger-sports-sele-pa-koepet",
+            "validUntil": "2018-04-30"
+        },
+        {
+            "id": "sign-product-of-month-march",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-product-of-month-march-standard.jpg",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-product-of-month-march-wide.jpg",
+            "closeButtonColor": "white",
+            "link": "https://www.signsport.se/orientering/341-kompass-s2-elit-degrees.html",
+            "validUntil": "2018-03-31"
+        },
+        {
+            "id": "sign-lampspecialisten",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-lampspecialisten-standard.jpg",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-lampspecialisten-wide.jpg",
+            "closeButtonColor": "white",
+            "link": "https://www.lampspecialisten.se/",
+            "validUntil": "2018-04-30"
         }
     ]
 }
