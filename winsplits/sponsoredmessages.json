@@ -46,12 +46,28 @@
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-rabatt-wide.png",
             "closeButtonColor": "white",
             "link": "https://www.signsport.se/",
+            "validUntil": "2018-03-01"
+        },
+        {
+            "id": "sign-rabatt-2",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-rabatt-2-standard.png",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-rabatt-2-wide.png",
+            "closeButtonColor": "white",
+            "link": "https://www.signsport.se/",
             "validUntil": "2018-04-30"
         },
         {
             "id": "sign-team-march",
             "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-team-march-standard.png",
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-team-march-wide.png",
+            "closeButtonColor": "white",
+            "link": "http://www.sign-sport.se/",
+            "validUntil": "2018-03-01"
+        },
+        {
+            "id": "sign-team-march-2",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-team-march-2-standard.png",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-team-march-2-wide.png",
             "closeButtonColor": "white",
             "link": "http://www.sign-sport.se/",
             "validUntil": "2018-03-31"
@@ -76,6 +92,14 @@
             "id": "sign-lampspecialisten",
             "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-lampspecialisten-standard.jpg",
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-lampspecialisten-wide.jpg",
+            "closeButtonColor": "white",
+            "link": "https://www.lampspecialisten.se/",
+            "validUntil": "2018-03-01"
+        },
+        {
+            "id": "sign-lampspecialisten-2",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-lampspecialisten-2-standard.jpg",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-lampspecialisten-2-wide.jpg",
             "closeButtonColor": "white",
             "link": "https://www.lampspecialisten.se/",
             "validUntil": "2018-04-30"
