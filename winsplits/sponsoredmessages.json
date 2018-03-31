@@ -73,6 +73,14 @@
             "validUntil": "2018-03-31"
         },
         {
+            "id": "sign-team-april",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-team-april-standard.png",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-team-april-wide.png",
+            "closeButtonColor": "white",
+            "link": "http://www.sign-sport.se/",
+            "validUntil": "2018-04-30"
+        },
+        {
             "id": "sign-mtiger",
             "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-mtiger-standard.jpg",
             "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/sign-mtiger-wide.jpg",
