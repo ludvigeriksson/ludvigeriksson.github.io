@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Agenda</title>
+</head>
+<body>
+    <div id="page1">
+        <div class="toolbar">
+            <h1>Information</h1>
+            <a id="swedish" href="#agenda" class="button">Agenda</a>
+        </div>
+
+        <p>Maps and further information is available in each cottage.<br />
+            Telephone to hunting camp, +46 647 810
+            12.<br />
+            Breakfast and dinner is served at Kolåsens fjällhotell.<br/>
+            Lunch will be served in the forest. If you want to bring sandwich and coffe you
+            prepare that during breakfast. Bring thermos to the hotell in the evening, and it will be filled with desired content (coffe, thé or hot chocolate.<br />
+            Welcome !<br />
+            <br />
+            Uno Brinnen/Tomas Blom</p>
+            <br /><br /><br />
+        </div>
+
+        <div id="agenda" class="toolbar">
+            <h1>Agenda</h1>
+        </div>
+        <ul class="edgetoedge">
+            <li><a href="">Sunday september 3rd</a></li>
+        </ul>
+        <ul>
+            <li><a href="">18:00</a><p>Arrival to Kolåsen, accomodations</p></li>
+            <li><a href="">18:10-19:00</a><p>Trial shooting of weapon for those who wish</p></li>
+            <li><a href="">19:15</a><p>Gathering in the hotell<br /><br />- BillerudKorsnäs AB - challenge and future, Per Lindberg<br /><br />- Wildlife lecture, Terje Bö</p></li>
+            <li><a href="">20:00</a><p>Dinner</p></li>
+        </ul>
+
+        <ul class="edgetoedge">
+            <li><a href="">Monday september 4th</a></li>
+        </ul>
+        <ul>
+            <li><a href="">06:30</a><p>Breakfast</p></li>
+            <li><p>Jakt</p></li>
+            <li><a href="">18:30</a><p>Sauna</p></li>
+            <li><a href="">20:00</a><p>Dinner</p></li>
+        </ul>
+
+        <ul class="edgetoedge">
+            <li><a href="">Tuesday september 5th</a></li>
+        </ul>
+        <ul>
+            <li><a href="">06:30</a><p>Breakfast</p></li>
+            <li><p>Jakt</p></li>
+            <li><a href="">12:00</a><p>Dinner in forest</p></li>
+            <li><a href="">13:30</a><p>Departure from Kolåsen to flight departure 16.05</p></li>
+            <li><a href="">16:00</a><p>Dinner buffet</p></li>
+            <li><a href="">16:40</a><p>Departure from Kolåsen to flight departure 19.25</p></li>
+
+        </ul>
+
+        <ul class="edgetoedge"></ul>
+    </div>
+</body>
+</html>

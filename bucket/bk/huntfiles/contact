@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Telefon</title>
+</head>
+<body>
+    <div id="phonelist" class="toolbar">
+        <h1>Telefon</h1>
+    </div>
+    <ul class="edgetoedge">
+        <li><a href="">Press&Hold phonenumber...</a></li>
+    </ul>
+    <ul>
+        <li><div>Uno Brinnen +4670 795 12 31 +4672 8474313</div></li>
+        <li><div>Tomas Blom +4670 268 33 06 +4673 3693449</div></li>
+        <li><div>Ulf Rudman	+4670 541 52 66 +46700287449</div></li>
+        <li><div>Terje Bö	+4797 72 88 85</div></li>
+        <li><div>Kenneth Svedlund +4670 205 31 18 +46728433739</div></li>
+        <li><div>Östen Thoresson +4670 535 03 41 +4673 3693330</div></li>
+        <li><div>Johan Thoresson +4670 578 76 41 +4673 3693460</div></li>
+        <li><div>Even Björnes +4670 566 70 57 +479 773 30 58</div></li>
+        <li><div>Sten Karelius +4673 803 97 49 +4670 365 42 01</div></li>
+        <li><div>Gabriel Karelius +4670 586 72 54</div></li>
+        <li><div>Siw Johansson +4670 795 10 32 +4670 795 16 25</div></li>
+        <li><div>Lägret, kontor, förläggn (Jaktledning) +4664 78 10 12</div></li>
+        <li><div>Kolåsens fjällhotell +4664 78 10 17 +4670 685 14 42</div></li>
+        <li><div>Kallsedet-Livs, bensin +4664 78 01 73</div></li>
+    </ul>
+    <ul class="edgetoedge"></ul>
+
+</div>
+
+</body>
+</html>
