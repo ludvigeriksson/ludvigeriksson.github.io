@@ -1,13 +1,3 @@
 {
-    "currentSponsoredMessages": [
-        {
-            "id": "hi-1",
-            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/hi-standard.png",
-            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/hi-wide.png",
-            "closeButtonColor": "white",
-            "link": "https://www.hellointernet.fm",
-            "validFrom": "2018-08-02",
-            "validUntil": "2018-08-12"
-        }
-    ]
+    "currentSponsoredMessages": []
 }
