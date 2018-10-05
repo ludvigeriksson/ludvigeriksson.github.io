@@ -1,3 +1,22 @@
 {
-    "currentSponsoredMessages": []
+    "currentSponsoredMessages": [
+        {
+            "id": "esp-2018-oak-socks",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-2018-oak-socks-standard.jpg",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-2018-oak-socks-wide.jpg",
+            "closeButtonColor": "white",
+            "link": "https://www.ekenssportprodukter.com/oak-socks",
+            "validFrom": "2018-10-05",
+            "validUntil": "2018-12-31"
+        },
+        {
+            "id": "esp-2018-ice-gel",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-2018-ice-gel-standard.jpg",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/esp-2018-ice-gel-wide.jpg",
+            "closeButtonColor": "white",
+            "link": "https://www.ekenssportprodukter.com/ice-storm-gel",
+            "validFrom": "2018-10-05",
+            "validUntil": "2018-12-31"
+        }
+    ]
 }
