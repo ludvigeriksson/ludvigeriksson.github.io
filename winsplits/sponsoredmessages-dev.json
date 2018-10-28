@@ -17,6 +17,15 @@
             "link": "https://www.ekenssportprodukter.com/ice-storm-gel",
             "validFrom": "2018-10-05",
             "validUntil": "2018-12-31"
+        },
+        {
+            "id": "reflexbanor.com-v1",
+            "urlStandard": "http://ludvigeriksson.com/winsplits/sponsoredmessages/reflexbanor.com-v1-standard.jpg",
+            "urlWide": "http://ludvigeriksson.com/winsplits/sponsoredmessages/reflexbanor.com-v1-wide.jpg",
+            "closeButtonColor": "white",
+            "link": "https://reflexbanor.com",
+            "validFrom": "2018-10-28",
+            "validUntil": "2018-12-31"
         }
     ]
 }
