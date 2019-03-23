@@ -11,7 +11,8 @@ body {
     font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-weight: bold;
 }
 
@@ -72,7 +73,7 @@ i {
         clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
         -o-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
         -moz-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
-        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);   
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
     }
 
     #logo {
@@ -144,10 +145,10 @@ i {
 
 .colored {
     color: white;
-    
+
     padding-top: 50px;
     padding-bottom: 40px;
-    
+
     background: linear-gradient(-60deg, $color-left, $color-right);
     background: -o-linear-gradient(-60deg, $color-left, $color-right);
     background: -moz-linear-gradient(-60deg, $color-left, $color-right);
@@ -162,7 +163,7 @@ i {
         clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);
         -o-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);
         -moz-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);
-        -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);  
+        -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%);
     }
 
     p {
@@ -186,6 +187,16 @@ i {
 
 .footnote {
     font-size: 0.8em;
+}
+
+.prices {
+    .title {
+        font-weight: bold;
+    }
+    p {
+        margin-bottom: 5px;
+        padding-bottom: 0;
+    }
 }
 
 /* Downloads section */
@@ -225,10 +236,10 @@ i {
 
 .fadeHover {
     opacity: 1;
-    transition: opacity .25s ease-in-out;
-    -o-transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
 }
 
 .fadeHover:hover {
