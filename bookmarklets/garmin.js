@@ -75,12 +75,18 @@
     var avgPulse = sumPulse / sumTime;
     var avgPulseString = avgPulse.toFixed(0);
 
+    var avgTime = sumTime / activeRows.length;
+    var avgTimeDate = new Date(null);
+    avgTimeDate.setMilliseconds(avgTime * 1000);
+    var avgTimeString = avgTimeDate.toISOString().substr(11, 11);
+
     var message = '';
 
     message += `Summary of ${activeRows.length} laps\n\n`;
     message += `Time: ${totalTimeString}\n`;
     message += `Distance: ${totalDistanceString}km\n`;
-    message += `Tempo: ${Math.floor(mpk)}:${mpkSecondsString}min/km\n`;
+    message += `Pace: ${Math.floor(mpk)}:${mpkSecondsString}min/km\n`;
+    message += `Average lap time: ${avgTimeString}`
     if (avgPulse) {
         message += `Average pulse: ${avgPulseString}bpm`;
     }
