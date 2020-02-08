@@ -1,5 +1,4 @@
 (function() {
-
     var activeRows = document.querySelectorAll('tr.active');
     if (activeRows.length === 0) {
         alert('No selected rows.');
@@ -46,7 +45,7 @@
         }
         minutes = parseInt(timeParts[0]);
         seconds = parseFloat(timeParts[1]);
-        var time = hours*60*60 + minutes*60 + seconds;
+        var time = hours * 60 * 60 + minutes * 60 + seconds;
         sumTime += time;
 
         if (distanceRow) {
@@ -61,11 +60,11 @@
     });
 
     var totalTimeDate = new Date(null);
-    totalTimeDate.setMilliseconds(sumTime*1000);
+    totalTimeDate.setMilliseconds(sumTime * 1000);
     var totalTimeString = totalTimeDate.toISOString().substr(11, 11);
     var totalDistanceString = sumDistance.toFixed(2);
 
-    var mpk = (sumTime / 60) / sumDistance;
+    var mpk = sumTime / 60 / sumDistance;
     var mpkSeconds = Math.round((mpk - Math.floor(mpk)) * 60);
     var mpkSecondsString = String(mpkSeconds);
     if (mpkSeconds < 10) {
@@ -86,7 +85,7 @@
     message += `Time: ${totalTimeString}\n`;
     message += `Distance: ${totalDistanceString}km\n`;
     message += `Pace: ${Math.floor(mpk)}:${mpkSecondsString}min/km\n`;
-    message += `Average lap time: ${avgTimeString}`
+    message += `Average lap time: ${avgTimeString}\n`;
     if (avgPulse) {
         message += `Average pulse: ${avgPulseString}bpm`;
     }
